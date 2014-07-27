@@ -1,6 +1,9 @@
 ## Functions 'makeCacheMatrix' and 'cacheSolve' handle caching and retrieving of inverted matrices
+## NOTE: Both functions have been written using 'makeVector' and 'cachemean' 
+## (by by Roger D. Peng, PhD, Jeff Leek, PhD, Brian Caffo, PhD) as templates. 
 
-## 'makeCacheMatrix' function creates a matrix containind a list with 4 functions:
+
+## 'makeCacheMatrix' function creates a matrix containing a list with 4 functions:
 ## 1. set: creates a matrix
 ## 2. get: retrieves a matrix created with 'set' function
 ## 3. setinv: creates an inverse of a matrix
